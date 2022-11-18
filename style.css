@@ -17,6 +17,13 @@ button {
 #img {
     cursor: grab;
 }
+
+#image:hover{
+  transition: all 500ms;
+  font-size: 22px;
+  color: white;
+  cursor: grab;
+}
   
 .row {
     display: flex;
