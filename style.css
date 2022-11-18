@@ -1,0 +1,23 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+*{
+    margin: auto;
+    padding: 10px;
+}
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .lorem {
+    text-align: left;
+  }
