@@ -31,6 +31,7 @@ button {
 }
 .crumbs a{
     text-decoration: none;
+    color: black;
 }
 
 .crumbs a:hover{
