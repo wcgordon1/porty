@@ -14,9 +14,31 @@ button {
     cursor: grab;
 }
 
-  .row {
+#img {
+    cursor: grab;
+}
+  
+.row {
     display: flex;
   }
+
+  .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.crumbs a{
+    text-decoration: none;
+}
+
+.crumbs a:hover{
+    transition: all 500ms;
+    font-size: 22px;
+    color: white;
+    cursor: grab;
+}
   
   .column {
     flex: 33.33%;
