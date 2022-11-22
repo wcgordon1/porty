@@ -10,23 +10,17 @@
     background-color: bisque;
 }
 
+button{
+  font-size: 18px;
+  border: none;
+}
 button:hover{
   cursor: grab;
-}
-
-
-
-#img {
-    cursor: grab;
-}
-
-#image:hover{
   transition: all 500ms;
-  font-size: 22px;
   color: white;
   cursor: grab;
 }
-  
+
 .row {
     display: flex;
   }
@@ -40,7 +34,7 @@ button:hover{
     padding-left: 0;
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 18px;
 }
 .crumbs a{
     text-decoration: none;
@@ -84,7 +78,7 @@ button:hover{
 
   .modal-content{
     width: 300px;
-    height: 500px;
+    height: 450px;
     background-color: bisque;
     border-radius: 10px;
     text-align: center;
@@ -93,10 +87,11 @@ button:hover{
 
   .close{
     position: absolute;
-    top: 0;
     right: 14px;
-    font-size: 42px;
+    font-size: 35px;
     transform: rotate(45deg);
+    padding: 0;
+    margin: 0;
   }
 
   .close:hover {
