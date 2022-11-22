@@ -41,11 +41,10 @@ button{
 }
 
 button:hover{
-  cursor: grab;
+  cursor: pointer;
   transition: all 500ms;
   text-decoration: underline;
   color: black;
-  cursor: grab;
 }
 
 .row {
@@ -72,7 +71,7 @@ button:hover{
 .crumbs a:hover{
     transition: all 500ms;
     text-decoration: underline;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .column h2:hover {
@@ -83,9 +82,11 @@ button:hover{
   
   .column {
     flex: 33.33%;
-    padding: 5px;
+    padding-right: 10px;
     text-align: center;
     margin: 10px auto;
+    
+
   }
 
   .lorem {
@@ -95,17 +96,15 @@ button:hover{
   .close{
     position: absolute;
     right: 14px;
-    font-size: 35px;
-    transform: rotate(45deg);
-    padding: 0;
-    margin: 0;
+    margin-top: 10px;
   }
 
-  .close:hover {
+  .close >img:hover {
     transition: all 500ms;
     color: white;
-    cursor: grabbing;
+    cursor: pointer;
   }
+
   form{
     display: flex;
     flex-direction: column;
@@ -141,5 +140,8 @@ button:hover{
         padding: 5px;
         text-align: center;
       }
+    .column >h2{
+      padding-bottom: 10px;
+    }
         }
   
