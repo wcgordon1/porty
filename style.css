@@ -17,7 +17,7 @@ button{
 button:hover{
   cursor: grab;
   transition: all 500ms;
-  color: white;
+  text-decoration: underline;
   cursor: grab;
 }
 
@@ -43,7 +43,7 @@ button:hover{
 
 .crumbs a:hover{
     transition: all 500ms;
-    color: white;
+    text-decoration: underline;
     cursor: grab;
 }
 
