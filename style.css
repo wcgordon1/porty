@@ -47,11 +47,18 @@ button {
     color: white;
     cursor: grab;
 }
+
+.column h2:hover {
+  transition: all 500ms;
+    font-size: 22px;
+    color: white;
+}
   
   .column {
     flex: 33.33%;
     padding: 5px;
     text-align: center;
+    margin: 10px auto;
   }
 
   .lorem {
