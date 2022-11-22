@@ -11,8 +11,6 @@
 }
 
 button:hover{
-  transition: all 500ms;
-  color: white;
   cursor: grab;
 }
 
@@ -81,6 +79,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
   }
 
   .modal-content{
@@ -98,6 +97,12 @@ button:hover{
     right: 14px;
     font-size: 42px;
     transform: rotate(45deg);
+  }
+
+  .close:hover {
+    transition: all 500ms;
+    color: white;
+    cursor: grabbing;
   }
   form{
     display: flex;
