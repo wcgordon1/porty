@@ -10,9 +10,13 @@
     background-color: bisque;
 }
 
-button {
-    cursor: grab;
+button:hover{
+  transition: all 500ms;
+  color: white;
+  cursor: grab;
 }
+
+
 
 #img {
     cursor: grab;
@@ -29,7 +33,11 @@ button {
     display: flex;
   }
 
-  .crumbs ol {
+  .crumns{
+    margin-bottom: -20px;
+  }
+
+.crumbs ol {
     list-style-type: none;
     padding-left: 0;
     display: flex;
@@ -43,7 +51,6 @@ button {
 
 .crumbs a:hover{
     transition: all 500ms;
-    font-size: 22px;
     color: white;
     cursor: grab;
 }
@@ -64,6 +71,39 @@ button {
   .lorem {
     text-align: left;
   }
+
+  .bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content{
+    width: 300px;
+    height: 500px;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+
+  .close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
 
   @media only screen and (max-width: 750px){
     .row {
