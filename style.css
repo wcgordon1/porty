@@ -13,11 +13,14 @@
 button{
   font-size: 18px;
   border: none;
+  color: black;
 }
+
 button:hover{
   cursor: grab;
   transition: all 500ms;
   text-decoration: underline;
+  color: black;
   cursor: grab;
 }
 
